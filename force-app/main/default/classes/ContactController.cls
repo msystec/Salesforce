@@ -5,6 +5,7 @@ public with sharing class ContactController {
         return [SELECT Id, Name, Title, Phone, Email FROM Contact  LIMIT 10];
     }
 
+    #comments for contactcontroler class
     @AuraEnabled(cacheable=true)
     public static List<Contact> findContacts(String searchKey) {
         String key = '%' + searchKey + '%';
