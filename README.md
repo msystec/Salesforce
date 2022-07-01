@@ -57,14 +57,15 @@ Pre-Requistes:
           https://github.com/msystec/Salesforce/blob/sf-01/Jenkinsfile
           
    7. Configure the required environment varibles in jenkins.
-        Set Environment variable:-
+   
+       7.1 Set Environment variable:-
       
           HUB_ORG_DH:- The username for the Dev Hub org, such as amit@gmail.com
           SFDC_HOST_DH:- The login URL of the Salesforce instance that is hosting the Dev Hub org. The default is https://login.salesforce.com
           CONNECTED_APP_CONSUMER_KEY_DH :- The consumer key that was returned after you created a connected app in your Dev Hub org.
           JWT_CRED_ID_DH:- The credentials ID for the private key file that you stored in the Jenkins Admin Credentials interface
           
-        Install the Custom Tools Plugin into your Jenkins console, and create a custom tool that references the Salesforce CLI
+        7.2 Install the Custom Tools Plugin into your Jenkins console, and create a custom tool that references the Salesforce CLI
      
      
      
